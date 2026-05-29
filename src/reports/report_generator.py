@@ -8,9 +8,11 @@ def generate_reports(df: pd.DataFrame) -> None:
             "insured_id",
             "product_type",
             "policy_status",
+            "gender",
             "current_age",
             "face_amount",
             "annual_premium",
+            "qx",
             "expected_claim",
             "reserve"
         ]
